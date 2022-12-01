@@ -20,7 +20,7 @@ namespace BasicAuthentictionWebAPI
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",
+                routeTemplate: "api/Employee/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
         }
